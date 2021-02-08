@@ -156,9 +156,9 @@ h4 {
 .header__burger {
     display: none;
 }
-.header__menu {
+/* .header__menu {
 
-}
+} */
 /* Intro */
 .intro {
     min-height: 460px;
