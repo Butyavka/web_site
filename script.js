@@ -4,3 +4,11 @@ $(document).ready(function(){
         $('body').toggleClass('lock');
     });
 });
+$(document).ready(function(){
+    $('.switch__button').click(function(event){
+        if($('.switch__button').hasClass('click')){
+            $('.switch__button').removeClass('click')
+        }
+        $(this).toggleClass('click')
+    });
+});
